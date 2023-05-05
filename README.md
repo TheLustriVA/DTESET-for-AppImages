@@ -2,7 +2,13 @@
 
 An interactive shell script that writes a Desktop Entry for AppImage files.
 
-## Usage
+![DTESET Logo](https://i.imgur.com/oIThoRB.png)
+
+[![BASH script](https://badgen.net/badge/icon/terminal?icon=terminal&label)](https://git.savannah.gnu.org/cgit/bash.git)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://opensource.org/licenses/)
+[![GPLv3 License](https://badgen.net/discord/members/murmur?color=blue)](https://discord.gg/murmur/)
+
+## Deployment
 
 I'm aware that some of these instructions are not absolute best-practice, but I'm trying to make this as accessible as possible.
 
@@ -11,7 +17,7 @@ I'm aware that some of these instructions are not absolute best-practice, but I'
 Navigate to the directory where the AppImage file is located and grab the script using wget:
 
 ```bash
-wget https://raw.githubusercontent.com/thelustriva/DTESET-for-AppImages/main/dteset.sh
+wget https://raw.githubusercontent.com/TheLustriVA/DTESET-for-AppImages/main/dteset.sh
 ```
 
 Make the script executable:
@@ -96,3 +102,13 @@ sudo ln -s /opt/dteset /usr/local/bin/dteset
 ```
 
 Now, the dteset script should be available system-wide, and all users can use the command from anywhere in the filesystem. Since the script is placed in a system-wide location, anyone using it will need to have the right permissions to execute the script.
+
+## License
+
+[GNU GENERAL PUBLIC LICENSE V3](https://choosealicense.com/licenses/gpl-3.0/)
+
+## Related
+
+More command-line helpers
+
+[SHIRT - SHIRT Handles Intense Renaming Tasks](https://github.com/TheLustriVA/shirt_util)
